@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register App</title>
+    <link href="cash.css" rel="stylesheet" >
+</head>
+<body>
+    <div class="main">
+        <h1 class="heading"> Cash Register Manager</h1>
+        <label for="billamount">Bill Amount</label>
+        <input style="height: 2rem; width:15rem;"class="billamount" type="number" />
+        <br>
+        <button class="nextbutton">Next</button>
+        <br>
+        <br>
+        <div class="hidenext">
+            <div class="hide">
+        <label for="cashgiven">Cash Given</label>
+        <br>
+        <input style="height: 2rem; width:15rem;" class="cashgiven" type="number" />
+        <br>
+        <br>
+        <button class="checkbutton">Check</button>
+        <br>
+        <p class="errormessage"></p>
+        <br>
+        <table>
+            <tr>
+                <th>No of notes</th>
+                <td id="no-of-note"></td>
+                <td id="no-of-note"></td>
+                <td id="no-of-note"></td>
+                <td id="no-of-note"></td>
+                <td id="no-of-note"></td>
+                <td id="no-of-note"></td>
+                <td id="no-of-note"></td>   
+            </tr>
+            <br>
+            <tr>
+                <th>Notes</th>
+                <td>2000 </td>
+                <td>500 </td>
+                <td>100 </td>
+                <td>50 </td>
+                <td>20 </td>
+                <td>10 </td>
+                <td>1 </td>
+            </tr>
+        </table>
+        </div>
+        </div>
+    </div>
+    <script src="cash.js" type="text/javascript"></script>
+</body>
+</html>

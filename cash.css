@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+margin: 0 auto;
+background-color: #513252; 
+padding: 1rem 1rem;
+text-align: center;
+align-items: center;
+justify-content: center;
+color: #FFC18E;
+}
+button{
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    width:15%;
+    margin:0 auto;    
+}
+button:hover{
+    color:#FFC18E;
+}
+.hide{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 0 auto;
+    align-items: center;
+justify-content: center;
+}
+table,th,td{
+    border: 1px solid #FFC18E;
+    padding: 1rem 1rem;
+    font-size: medium;
+}
