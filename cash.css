@@ -29,7 +29,7 @@ button:hover{
 justify-content: center;
 }
 table,th,td{
-    border: 1px solid #FFC18E;
+    border: 2px solid #FFC18E;
     padding: 1rem 1rem;
     font-size: medium;
 }
