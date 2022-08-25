@@ -28,8 +28,11 @@ button:hover{
     align-items: center;
 justify-content: center;
 }
-table,th,td{
-    border: 20px solid #FFC18E;
+table{
+    border: 5px solid #FFC18E;
     padding: 1rem 1rem;
     font-size: medium;
+}
+th,td{
+    padding:1rem 1rem;
 }
