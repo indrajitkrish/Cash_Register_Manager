@@ -13,10 +13,13 @@ nextButton.addEventListener("click",function show(){
 hide.style.display="block";
 checkButton.addEventListener("click",function calculateAmount(){
     error.style.display="none";
+    //console.log(billAmount.value);
+    //console.log(cashGiven.value);
     if(billAmount.value>0)
     {
-       if(cashGiven.value >= billAmount.value){
+       if(Number(cashGiven.value) >= Number(billAmount.value)){
         var amountBalance = cashGiven.value - billAmount.value ;
+        //console.log(amountBalance);
         for(var i=0;i<denominations.length ;i++)
         {
              count = Math.trunc(amountBalance/denominations[i]);
