@@ -6,7 +6,7 @@ const noOfNotes=document.querySelectorAll("#no-of-note")
 const nextButton = document.querySelector(".nextbutton");
 const hide = document.querySelector(".hidenext");
 
-const denominations=["2000","500","100","50","20","10","1"];
+const denominations=["2000","500","100","50","20","10","5","1"];
 
 hide.style.display="none";
 nextButton.addEventListener("click",function show(){
